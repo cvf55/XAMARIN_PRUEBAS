@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/llvPrincipal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhEstadoConexion"
+        android:layout_margin="10px">
+        <TextView
+            android:text="@string/ConexionInet"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtConexion" />
+        <TextView
+            android:text="@string/Conectado"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulConexion"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhTipoConexion"
+        android:layout_margin="10px">
+        <TextView
+            android:text="@string/TIPOCONEXION"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtTipoConexion" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulTipoConexion"
+            android:text="@string/WIFI"
+            android:layout_marginLeft="15px" />
+        <TextView
+            android:text="3G"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulNombreConexion"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhFuerzaSeñal"
+        android:layout_margin="10px">
+        <TextView
+            android:text="@string/FUERZASENALMOBILE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtFuerzaSenalMobile" />
+        <TextView
+            android:text="00"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulFuerzaSenalMobile"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+    <TextView
+        android:text="@string/TestVelocidad"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTestVelocidad"
+        android:layout_margin="10px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhSubida"
+        android:layout_margin="10px">
+        <TextView
+            android:text="@string/Subida"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSubida" />
+        <TextView
+            android:text="1000 MB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulSubida"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhBajada"
+        android:layout_margin="10px">
+        <TextView
+            android:text="@string/Bajada"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtBajada" />
+        <TextView
+            android:text="1000 MB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResulBajada"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+    <Button
+        android:text="@string/Comenzar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmdComenzar"
+        android:layout_margin="10px" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">WSAndroid</string>
+  <string name="ConexionInet">Estado conexión</string>
+  <string name="TestVelocidad">Test de velocidad</string>
+  <string name="Subida">Subida</string>
+  <string name="Bajada">Bajada</string>
+  <string name="Conectado">Conectado</string>
+  <string name="NoConectado">No Conectado</string>
+  <string name="WIFI">WIFI</string>
+  <string name="MOBILE">Mobile</string>
+  <string name="Comenzar">Comenzar</string>
+  <string name="TIPOCONEXION">Conexión</string>
+  <string name="FUERZASENALMOBILE">Fuerza de la señal</string>
+</resources>
