@@ -144,14 +144,14 @@ namespace WSAndroid {
         public void RealizarTestVelocidad()
         {
             string sRutaFicheroGenerado = string.Empty;
-            //double nVelSubida = 0d;
+            double nVelSubida = 0d;
             //double nVelBajada = 0d;
 
             //1 - Vamos a generar un fichero de una longitud determinada
             sRutaFicheroGenerado = this.GenerarFicheroPruebas(512);
 
             //2 - Vamos a subir el fichero para comprobar la velocidad de subida
-            //nVelSubida = this.SubirFicheroTest(sRutaFicheroGenerado);
+            nVelSubida = this.SubirFicheroTest(sRutaFicheroGenerado);
 
             //3 - Bajamos el fichero para comprobar la velocidad de bajada
             //nVelBajada = this.BajarFicheroTest(sRutaFicheroGenerado);
