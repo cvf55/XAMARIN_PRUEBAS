@@ -52,8 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\cDropBox.cs" />
+    <Compile Include="Clases\cEnvioMail.cs" />
     <Compile Include="Clases\cTestInet.cs" />
     <Compile Include="ConexionInet.cs" />
+    <Compile Include="Interfaces\IEnvioMail.cs" />
+    <Compile Include="Interfaces\ILog.cs" />
     <Compile Include="Listeners\GsmSignalStrengthListener.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PrincipalActivity.cs" />
