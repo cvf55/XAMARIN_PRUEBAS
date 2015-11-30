@@ -151,7 +151,7 @@ namespace WSAndroid {
             sRutaFicheroGenerado = this.GenerarFicheroPruebas(512);
 
             //2 - Vamos a subir el fichero para comprobar la velocidad de subida
-            nVelSubida = this.SubirFicheroTest(sRutaFicheroGenerado);
+            //nVelSubida = this.SubirFicheroTest(sRutaFicheroGenerado);
 
             //3 - Bajamos el fichero para comprobar la velocidad de bajada
             //nVelBajada = this.BajarFicheroTest(sRutaFicheroGenerado);
@@ -329,8 +329,18 @@ namespace WSAndroid {
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Realizar una prueba de subida de ficheros a la red. 
+        /// </summary>
+        /// <param name="sRutaFicheroGenerado">Fichero que usaremos para realizar la prueba de subida</param>
+        /// <returns></returns>
         private double SubirFicheroTest(string sRutaFicheroGenerado) {
-            throw new NotImplementedException();
+            //Usaremos el servidor de DROPBOX para realizar el test de subir ficheros.
+            //Esto es una prueba.
+            cDropBox clsDropBox = new cDropBox();
+            clsDropBox.Buscar("", "");
+
+            return 0d;
         }
 
         /// <summary>
