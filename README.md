@@ -1,2 +1,2 @@
-# XERVIKA
-Repositorio de Xervika
+# XAMARIN_PRUEBAS
+Aplicacion de pruebas usando XAMARIN
